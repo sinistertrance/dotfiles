@@ -51,6 +51,7 @@ return require('packer').startup(function(use)
     -- ColorSchemes
     use 'folke/tokyonight.nvim'
     use 'rose-pine/neovim'
+    use 'sinistertrance/gruber.vim'
     
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
