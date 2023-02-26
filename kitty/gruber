@@ -1,0 +1,38 @@
+background          #1c1c1c
+foreground          #f4f4ff
+
+# cursor            #ffdd33
+cursor              #ffd700
+
+# black
+color0   #1c1c1c
+color8   #161616
+
+# red
+color1   #ff5f5f
+color9   #ff1919
+
+# green 
+color2   #87d75f
+color10  #63c632
+
+# yellow 
+color3   #ffd700
+color11  #ccac00
+
+# blue
+color4   #87afd7
+color12  #528cc6
+
+# magenta 
+color5   #afafd7
+color13  #7b7bbd
+
+# cyan
+color6   #afd7af
+color14  #7bbd7b
+
+# white
+color7   #dddddd
+color15  #ffffff 
+
