@@ -16,7 +16,7 @@ vim.opt.relativenumber = true
 vim.opt.scrolloff = 8
 
 -- ColorScheme
---vim.cmd[[colorscheme tokyonight-night]]
+--vim.cmd[[colorscheme gruber]]
 vim.cmd[[set formatoptions-=cro]]
 vim.cmd[[set colorcolumn=80]]
 vim.cmd[[highlight ColorColumn guibg=white]]
