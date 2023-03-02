@@ -40,10 +40,11 @@ return require('packer').startup(function(use)
 
     -- TreeSitter
     use 'nvim-treesitter/nvim-treesitter'
-
-    -- File Explorer & DevIcons
+    
+    -- Telescope & DevIcons
     use 'nvim-tree/nvim-web-devicons'
-    use 'nvim-tree/nvim-tree.lua'
+    use 'nvim-telescope/telescope.nvim'
+    use 'nvim-lua/plenary.nvim'
     
     -- Lua line
     use 'nvim-lualine/lualine.nvim'
@@ -51,6 +52,7 @@ return require('packer').startup(function(use)
     -- ColorSchemes
     use 'folke/tokyonight.nvim'
     use 'sinistertrance/gruber.vim'
+    use 'catppuccin/nvim'
     
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
