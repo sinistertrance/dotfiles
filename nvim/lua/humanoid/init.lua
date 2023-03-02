@@ -7,4 +7,4 @@ require('humanoid.lualine')
 require('humanoid.auto-pairs')
 require('humanoid.impatient')
 require('humanoid.telescope')
-require('humanoid.plenary')
+
