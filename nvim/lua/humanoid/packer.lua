@@ -50,9 +50,9 @@ return require('packer').startup(function(use)
     use 'nvim-lualine/lualine.nvim'
 
     -- ColorSchemes
-    use 'folke/tokyonight.nvim'
+    use 'sinistertrance/doom-one.nvim'
     use 'sinistertrance/gruber.vim'
-    use 'catppuccin/nvim'
+   
     
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
