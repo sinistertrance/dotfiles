@@ -157,4 +157,6 @@ bar {
 # user settings
 exec_always xrandr --output eDP --off
 exec_always xrandr --output HDMI-A-0 --mode 1920x1080 --rate 144.00
+gaps inner 12
 for_window [class="^.*"] border pixel 4
+for_window [class="kitty"] resize shrink width 100
