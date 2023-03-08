@@ -1,12 +1,7 @@
--- Eviline config for lualine
--- Author: shadmansaleh
--- Credit: glepnir
 local lualine = require('lualine')
 
--- Color table for highlights
--- stylua: ignore
 local colors = {
-  bg       = '#181818',
+  bg       = '#1d2026',
   fg       = '#bbc2cf',
   yellow   = '#ECBE7B',
   cyan     = '#008080',
@@ -82,7 +77,7 @@ ins_left {
   function()
     return '▊'
   end,
-  color = { fg = colors.magenta}, -- Sets highlighting of component
+  color = { fg = colors.blue}, -- Sets highlighting of component
   padding = { left = 0, right = 1 }, -- We don't need space before this
 }
 
@@ -127,14 +122,11 @@ ins_left {
 }
 
 ins_left {
+  icon = '󰆓',
   'filename',
   cond = conditions.buffer_not_empty,
   color = { fg = colors.magenta, gui = 'bold' },
 }
-
-ins_left { 'location' }
-
-ins_left { 'progress', color = { fg = colors.fg, gui = 'bold' } }
 
 ins_left {
   'diagnostics',
@@ -213,7 +205,7 @@ ins_right {
   function()
     return '▊'
   end,
-  color = { fg = colors.magenta },
+  color = { fg = colors.blue },
   padding = { left = 1 },
 }
 
