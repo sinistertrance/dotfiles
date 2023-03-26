@@ -128,6 +128,8 @@ ins_left {
   color = { fg = colors.magenta, gui = 'bold' },
 }
 
+ins_left { 'location' }
+
 ins_left {
   'diagnostics',
   sources = { 'nvim_diagnostic' },
