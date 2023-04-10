@@ -45,13 +45,11 @@ return require('packer').startup(function(use)
     use 'nvim-tree/nvim-web-devicons'
     use 'nvim-telescope/telescope.nvim'
     use 'nvim-lua/plenary.nvim'
-    
-    -- Lua line
-    use 'nvim-lualine/lualine.nvim'
 
     -- ColorSchemes
     use 'sinistertrance/doom-one.nvim'
     use 'sinistertrance/gruber.vim'
+    use 'sinistertrance/ghdark'
    
     
     -- Automatically set up your configuration after cloning packer.nvim
