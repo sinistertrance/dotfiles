@@ -3,7 +3,7 @@ echo 'max_parallel_downloads=10' | sudo tee -a /etc/dnf/dnf.conf
 echo 'deltarpm=true' | sudo tee -a /etc/dnf/dnf.conf
 
 # packages
-sudo dnf install g++ feh neofetch nodejs clang-tools-extra htop curl radare2-devel neovim mingw64-gcc flatpak flameshot blueman pasystray sqlite kitty keepassxc python3-pip xclip -y -y -y
+sudo dnf install g++ feh neofetch nodejs clang-tools-extra htop curl radare2-devel neovim mingw64-gcc-c++ flatpak flameshot blueman pasystray sqlite kitty keepassxc python3-pip xclip -y -y -y
 
 # flatpak repos
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
