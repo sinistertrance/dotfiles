@@ -16,7 +16,7 @@ vim.opt.relativenumber = true
 vim.opt.scrolloff = 8
 
 -- ColorScheme
---vim.cmd[[colorscheme doom-one]]
+--vim.cmd[[colorscheme onedarker]]
 vim.cmd[[au FileType * set fo-=c fo-=r fo-=o]]
 --vim.cmd[[set colorcolumn=80]]
 --vim.cmd[[highlight ColorColumn guibg=white]]
