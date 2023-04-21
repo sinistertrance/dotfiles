@@ -48,10 +48,8 @@ return require('packer').startup(function(use)
 
     -- ColorSchemes
     use 'sinistertrance/doom-one.nvim'
-    use 'sinistertrance/gruber.vim'
-    use 'sinistertrance/ghdark'
+    use 'LunarVim/onedarker.nvim'
    
-    
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
   if packer_bootstrap then
